@@ -1,4 +1,4 @@
-CONTRIBUTORS = []  # Add your group members' names here
+CONTRIBUTORS = ["Sanya"]  # Conflicts generator 1
 
 
 def add(a, b):
@@ -6,11 +6,11 @@ def add(a, b):
 
 
 def subtract(a, b):
-    pass
+    return a - b
 
 
 def multiply(a, b):
-    return a*b
+    pass
 
 
 def divide(a, b):
@@ -19,4 +19,4 @@ def divide(a, b):
 
 if __name__ == "__main__":
     print(f"Welcome to the Group Calculator, written by {CONTRIBUTORS}")
-    print(add(2, 2))
+    print(subtract(5, 2))  # Conflicts generator 2
